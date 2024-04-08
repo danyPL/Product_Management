@@ -43,6 +43,7 @@ namespace Product_Management
                             AddOrder();
                             break;
                         case 2:
+                            Console.Clear();
                             ShowOrders();
                             break;
                         case 3:
@@ -72,7 +73,7 @@ namespace Product_Management
             string sposob_dostawy = Console.ReadLine() == "1" ? "kurier" : "odbior osobisty";
             Console.WriteLine("Podaj Sposób płatności: \n1. karta[cena 2zł] \n2. gotówką[cena 0zł])");
             string sposob_platnosci = Console.ReadLine() == "1" ? "karta" : "gotowka";
-            
+            Console.ReadKey();
             List<Product> produktyG;
             string json = File.ReadAllText(pathP);
             produktyG = JsonSerializer.Deserialize<List<Product>>(json);
@@ -162,12 +163,12 @@ namespace Product_Management
 
         static void ShowOrders()
         {
+
             Console.WriteLine("Lista zamówień:");
             foreach (var zamowienie in zamowienia)
             {
                 Console.WriteLine($"Id: {zamowienie.Id}, Imie: {zamowienie.Imie}, Nazwisko: {zamowienie.Nazwisko}, Adres: {zamowienie.Adres}, Sposób dostawy: {zamowienie.Sposob_dostawy}, Sposób płatności: {zamowienie.Sposob_platnosci}, Kwota całkowita: {zamowienie.Kwota_cal}zł");
             }
-            Console.WriteLine("Koniec listy.");
             Console.ReadKey();
         }
     }
