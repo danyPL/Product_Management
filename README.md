@@ -18,7 +18,7 @@ Aby zainicjować aplikacje należy zmienić ścieżki plików w zmiennach ```pat
 
 ## Screenshots
 #### Wygląd UI aplikacji
-![Screen Aplikacji](https://imgur.com/r5CWAYr)
+![Screen Aplikacji](/images/1.jpg)
 #### Opcja 2 (Lista zamówień)
 ![Screen Aplikacji](https://imgur.com/V0o0PSq)
 #### Opcja 1 (Tworzenie zamówienia)
