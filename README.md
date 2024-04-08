@@ -27,17 +27,14 @@ Aby zainicjować aplikacje należy zmienić ścieżki plików w zmiennach ```pat
 ![Screen Aplikacji](/images/4.png)
 #### Opcja 1 (Dodawanie produktu do zamowienia)
 ![Screen Aplikacji](/images/5.png)
-#### Opcja 1 (Dodawanie produktu do zamowienia)
+#### Opcja 2 (Lista wszystkich dostępnych produktów)
 ![Screen Aplikacji](/images/6.png)
 #### Opcja 2 (Lista wszystkich dostępnych produktów)
 ![Screen Aplikacji](/images/7.png)
-#### Opcja 2 (Lista wszystkich dostępnych produktów)
-![Screen Aplikacji](/images/8.png)
 #### Opcja 3 (Szczegóły zamówienia)
-![Screen Aplikacji](/images/9.png)
+![Screen Aplikacji](/images/8.png)
 #### Opcja 4 (Składanie zamówienia)
-![Screen Aplikacji](/images/10.png)
-
+![Screen Aplikacji](/images/9.png)
 ## Stack Technologi
 **Klient:** C#
 
