@@ -1,0 +1,12 @@
+[
+    {
+        "Id":0,
+        "Imie":"Test",
+        "Nazwisko":"Test",
+        "Adres":"Test",
+        "Sposob_dostawy":"kurier",
+        "Sposob_platnosci":"karta",
+        "Kwota_cal":25.5,
+        "products":null
+    }
+]
